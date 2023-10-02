@@ -7,20 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1527E812ACAC6F50018BFD5 /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1527E802ACAC6F50018BFD5 /* ForgotPasswordController.swift */; };
+		D1527E832ACAC7100018BFD5 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1527E822ACAC7100018BFD5 /* LoginController.swift */; };
+		D1527E852ACAC71F0018BFD5 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1527E842ACAC71F0018BFD5 /* RegisterController.swift */; };
+		D1527E892ACACB5D0018BFD5 /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1527E882ACACB5D0018BFD5 /* AuthHeaderView.swift */; };
+		D1527E8B2ACADE4D0018BFD5 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1527E8A2ACADE4D0018BFD5 /* CustomTextField.swift */; };
+		D1527E8D2ACAF46B0018BFD5 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1527E8C2ACAF46B0018BFD5 /* CustomButton.swift */; };
+		D1527E8F2ACB1A770018BFD5 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1527E8E2ACB1A770018BFD5 /* WebViewController.swift */; };
 		D1969B2C2ACAC518008B1916 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1969B2B2ACAC518008B1916 /* AppDelegate.swift */; };
 		D1969B2E2ACAC518008B1916 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1969B2D2ACAC518008B1916 /* SceneDelegate.swift */; };
-		D1969B302ACAC518008B1916 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1969B2F2ACAC518008B1916 /* ViewController.swift */; };
-		D1969B332ACAC518008B1916 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1969B312ACAC518008B1916 /* Main.storyboard */; };
 		D1969B352ACAC51A008B1916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1969B342ACAC51A008B1916 /* Assets.xcassets */; };
 		D1969B382ACAC51A008B1916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1969B362ACAC51A008B1916 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D1527E802ACAC6F50018BFD5 /* ForgotPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
+		D1527E822ACAC7100018BFD5 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		D1527E842ACAC71F0018BFD5 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		D1527E882ACACB5D0018BFD5 /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
+		D1527E8A2ACADE4D0018BFD5 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		D1527E8C2ACAF46B0018BFD5 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		D1527E8E2ACB1A770018BFD5 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		D1969B282ACAC518008B1916 /* UIKitLoginWithFireBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitLoginWithFireBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1969B2B2ACAC518008B1916 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1969B2D2ACAC518008B1916 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D1969B2F2ACAC518008B1916 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D1969B322ACAC518008B1916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1969B342ACAC51A008B1916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1969B372ACAC51A008B1916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1969B392ACAC51A008B1916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +47,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D1527E7E2ACAC6940018BFD5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D1527E882ACACB5D0018BFD5 /* AuthHeaderView.swift */,
+				D1527E8A2ACADE4D0018BFD5 /* CustomTextField.swift */,
+				D1527E8C2ACAF46B0018BFD5 /* CustomButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D1527E7F2ACAC69D0018BFD5 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				D1969B342ACAC51A008B1916 /* Assets.xcassets */,
+				D1969B362ACAC51A008B1916 /* LaunchScreen.storyboard */,
+				D1969B2B2ACAC518008B1916 /* AppDelegate.swift */,
+				D1969B2D2ACAC518008B1916 /* SceneDelegate.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
 		D1969B1F2ACAC518008B1916 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +87,13 @@
 		D1969B2A2ACAC518008B1916 /* UIKitLoginWithFireBase */ = {
 			isa = PBXGroup;
 			children = (
-				D1969B2B2ACAC518008B1916 /* AppDelegate.swift */,
-				D1969B2D2ACAC518008B1916 /* SceneDelegate.swift */,
-				D1969B2F2ACAC518008B1916 /* ViewController.swift */,
-				D1969B312ACAC518008B1916 /* Main.storyboard */,
-				D1969B342ACAC51A008B1916 /* Assets.xcassets */,
-				D1969B362ACAC51A008B1916 /* LaunchScreen.storyboard */,
+				D1527E822ACAC7100018BFD5 /* LoginController.swift */,
+				D1527E842ACAC71F0018BFD5 /* RegisterController.swift */,
+				D1527E802ACAC6F50018BFD5 /* ForgotPasswordController.swift */,
+				D1527E7E2ACAC6940018BFD5 /* Views */,
+				D1527E7F2ACAC69D0018BFD5 /* Supporting */,
 				D1969B392ACAC51A008B1916 /* Info.plist */,
+				D1527E8E2ACB1A770018BFD5 /* WebViewController.swift */,
 			);
 			path = UIKitLoginWithFireBase;
 			sourceTree = "<group>";
@@ -127,7 +158,6 @@
 			files = (
 				D1969B382ACAC51A008B1916 /* LaunchScreen.storyboard in Resources */,
 				D1969B352ACAC51A008B1916 /* Assets.xcassets in Resources */,
-				D1969B332ACAC518008B1916 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +168,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1969B302ACAC518008B1916 /* ViewController.swift in Sources */,
+				D1527E812ACAC6F50018BFD5 /* ForgotPasswordController.swift in Sources */,
+				D1527E8D2ACAF46B0018BFD5 /* CustomButton.swift in Sources */,
+				D1527E8F2ACB1A770018BFD5 /* WebViewController.swift in Sources */,
+				D1527E852ACAC71F0018BFD5 /* RegisterController.swift in Sources */,
 				D1969B2C2ACAC518008B1916 /* AppDelegate.swift in Sources */,
+				D1527E8B2ACADE4D0018BFD5 /* CustomTextField.swift in Sources */,
 				D1969B2E2ACAC518008B1916 /* SceneDelegate.swift in Sources */,
+				D1527E832ACAC7100018BFD5 /* LoginController.swift in Sources */,
+				D1527E892ACACB5D0018BFD5 /* AuthHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D1969B312ACAC518008B1916 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D1969B322ACAC518008B1916 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D1969B362ACAC51A008B1916 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +325,6 @@
 				INFOPLIST_FILE = UIKitLoginWithFireBase/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +352,6 @@
 				INFOPLIST_FILE = UIKitLoginWithFireBase/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
